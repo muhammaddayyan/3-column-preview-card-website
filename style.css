@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  width: 900px;
+}
+
+.card {
+  flex: 1;
+  padding: 40px;
+  height: 520px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.sedans {
+  background-color: #ef7d33;
+  justify-content: center;
+}
+
+.suvs {
+  background-color: #007377;
+  justify-content: center;
+}
+
+.luxury {
+  background-color: #01403A;
+  justify-content: center;
+}
+
+.edit{
+  height: 50px;
+  width: 70px;
+}
+
+h2 {
+  font-size: 38px;
+  margin-top: -30px;
+  font-family: "Afacad Flux", sans-serif;
+  font-weight: 550;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-top: -25px;
+  color: rgb(224, 223, 223);
+}
+
+button {
+  border: none;
+  border-radius: 30px;
+  padding: 10px 0px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 30px;
+  transition: background-color 0.5s ease;
+}
+.btn-1{
+  color: #ef7d33;
+}
+
+.btn-2{
+  color: #007377;
+}
+
+.btn-3{
+  color: #01403a;
+}
+
+button:hover {
+  background: transparent;
+  border: 1.5px solid white;
+  color: white;
+}
